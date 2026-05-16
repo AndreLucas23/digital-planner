@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #333;
+    --color-secondary: #E0E0E0;
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+}
